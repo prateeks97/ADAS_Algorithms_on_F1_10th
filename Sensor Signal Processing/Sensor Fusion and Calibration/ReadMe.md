@@ -4,7 +4,7 @@
 
 The objective was to use two ultrasonic sensors to accurately measure the distance from an orthogonal object. This has to be done in the fastest way possible.
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/problem_statement.png"  width="300"  height="200"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/problem_statement.png"  width="400"  height="200"  />
 </p>
 
 ## Technical Approach
@@ -17,12 +17,12 @@ The objective was to use two ultrasonic sensors to accurately measure the distan
 ## Hardware Implementation
 The hardware used for this task are: Arduino Uno board, two HCSR04 sensors, breadboard and wires to connect everything, resistor, LED and buzzer. The given figure explains the connections used in the setup.
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/sensor_setup_explanation.png"  width="300"  height="200"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/sensor_setup_explanation.png"  width="400"  height="300"  />
 </p>
 
 The following figure shows the actual setup.
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/sensor_setup.jpg"  width="300"  height="200"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/sensor_setup.jpg"  width="500"  height="500"  />
 </p>
 
 ## Sotware Implementation
@@ -32,7 +32,7 @@ The following figure shows the actual setup.
  3. Measurement co-variance (R) for the Kalman filter was calculated.
  4. After these steps Kalman filter was used to fuse the two sensors shown as below:
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/kalman_filter_sensor_fusion_logic.png"  width="450"  height="200"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/kalman_filter_sensor_fusion_logic.png"  width="600"  height="250"  />
 </p>
 
 The prediction was made by one sensor and correction was made by another sensor in the sensor fusion.
