@@ -12,7 +12,7 @@ For this activity, an initial sub-task of implementing sensor signal processing 
 
 ### 1. Sensor signal processing:
 
-**1a.Sensor fusion with digital filtering**
+**1a. Sensor fusion with digital filtering**
 
 implementation details can be found [here](https://github.com/shorane/ADAS_Algorithms_on_F1_10th/tree/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration)
 
@@ -20,7 +20,7 @@ implementation details can be found [here](https://github.com/shorane/ADAS_Algor
 <img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/kalman_filter_sensor_fusion_logic.png"  width="750"  height="200"  />
 </p>
 
-**1b.Ultrasonic sensor-based Localization system**
+**1b. Ultrasonic sensor-based Localization system**
 implementation details can be found [here](https://github.com/shorane/ADAS_Algorithms_on_F1_10th/tree/master/Sensor%20Signal%20Processing/Ultrasound%20based%20Localization%20System)
 
 <p align = "center">
