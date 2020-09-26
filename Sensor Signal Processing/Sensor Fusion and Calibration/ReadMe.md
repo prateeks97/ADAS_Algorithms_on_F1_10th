@@ -20,7 +20,7 @@ The hardware used for this task are: Arduino Uno board, two HCSR04 sensors, brea
 <img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/sensor_setup_explanation.png"  width="500"  height="400"  />
 </p>
 
-The following figure shows the actual setup.
+The following figure shows the actual setup:
 <p align = "center">
 <img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/sensor_setup.jpg"  width="500"  height="500"  />
 </p>
