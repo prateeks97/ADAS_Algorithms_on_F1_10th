@@ -10,19 +10,20 @@ The objective was to design and implement the vehicle control algorithms such th
 
 For this activity, an initial sub-task of implementing sensor signal processing was accomplished, and then the task of developing ADAS algorithms for the F1/10th car were undertaken.
 
-### Sensor signal processing:
+### 1. Sensor signal processing:
 
-**Sensor fusion with digital filtering**
+**1a.Sensor fusion with digital filtering**
 <p align = "center">
 <img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/kalman_filter_sensor_fusion_logic.png"  width="750"  height="200"  />
 </p>
 
-**Ultrasonic sensor-based Localization system**
+**1b.Ultrasonic sensor-based Localization system**
 <p align = "center">
 <img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Ultrasound%20based%20Localization%20System/images/kalman_filter_logic.png"  width="700"  height="300"  />
 </p>
 
-### ACC and Lane-keeping (detailed implementation [here](https://github.com/shorane/ADAS_Algorithms_on_F1_10th/tree/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping))
+### 2. ACC and Lane-keeping 
+(detailed implementation [here](https://github.com/shorane/ADAS_Algorithms_on_F1_10th/tree/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping))
 <p align = "center">
 <img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/lane_keeping_logic.png"  width="700"  height="200"  />
 </p>
