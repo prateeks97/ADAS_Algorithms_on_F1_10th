@@ -22,7 +22,7 @@ For this activity, an initial sub-task of implementing sensor signal processing 
 <img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Ultrasound%20based%20Localization%20System/images/kalman_filter_logic.png"  width="700"  height="300"  />
 </p>
 
-### ACC and Lane-keeping 
+### ACC and Lane-keeping (detailed implementation [here](https://github.com/shorane/ADAS_Algorithms_on_F1_10th/tree/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping))
 <p align = "center">
 <img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/lane_keeping_logic.png"  width="700"  height="200"  />
 </p>
