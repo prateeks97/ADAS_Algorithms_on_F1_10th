@@ -32,7 +32,7 @@ The following figure shows the actual setup.
  3. Measurement co-variance (R) for the Kalman filter was calculated.
  4. After these steps Kalman filter was used to fuse the two sensors shown as below:
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/kalman_filter_sensor_fusion_logic.png"  width="700"  height="250"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/kalman_filter_sensor_fusion_logic.png"  width="750"  height="200"  />
 </p>
 
 The prediction was made by one sensor and correction was made by another sensor in the sensor fusion.
