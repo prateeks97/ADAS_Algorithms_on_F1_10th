@@ -5,14 +5,14 @@
 The objective was to design and implement the vehicle control algorithms such that vehicle was able to maintain a distance of 30cm from any object placed ahead of it. It was also required to stop the vehicle 30cm away from a stationary obstacle placed ahead of it.
 The second was to maintain a distance of 40cm from the side wall and remain in the center of the defined lane.
 
-**Adaptive Cruize Control (ACC)**
+**Adaptive Cruise Control (ACC)**
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/acc_logic.jpg"  width="400"  height="200"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/acc_logic.jpg"  width="400"  height="200"  />
 </p>
 
 **Autonomous Lane Keeping**
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/lane_keeping_logic.png"  width="700"  height="200"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/lane_keeping_logic.png"  width="700"  height="200"  />
 </p>
 
 ## Technical Approach
@@ -38,12 +38,12 @@ The hardware used for this task are:
 7.	Two ultrasonic sensors
 
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/hardware.png"  width="700"  height="300"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/hardware.png"  width="700"  height="300"  />
 </p>
 
 **Hardware Integrated Vehicle**
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/f1_10th_integrated.jpg"  width="600"  height="500" />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/f1_10th_integrated.jpg"  width="600"  height="500" />
 </p>
 
 ## Software Implementation
@@ -56,11 +56,11 @@ The hardware used for this task are:
  - PD controller implementation for throttle control with the implementation of dead zone at 30cm from the wall so that the car does not fluctuate when stopped by an obstruction. PWM is also implemented to make the car run slower on the slope so that the car can steer well. Also, duty cycle was increased for the case when car has to climb the slope in reverse direction.
 
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/pulse_width_modulation.png"  width="700"  height="300"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/pulse_width_modulation.png"  width="700"  height="300"  />
 </p>
 
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/pid_acc.png"  width="800"  height="200"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/pid_acc.png"  width="800"  height="200"  />
 </p>
 
  - (Filtered_distance)[n] = w × (sensor_distance)[n] + (1 – w) × (Filtered_distance)[n–1] where, w is the weight factor from 0 to 1
@@ -68,7 +68,7 @@ The hardware used for this task are:
 
 
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/exponential_filter_results.JPG"  width="700"  height="300"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/exponential_filter_results.JPG"  width="700"  height="300"  />
 </p>
 
 **For Lane keeping**
@@ -79,7 +79,7 @@ The hardware used for this task are:
  - PD controller implemented for steering control.
 
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/pid_lane_keeping.png"  width="800"  height="200"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/pid_lane_keeping.png"  width="800"  height="200"  />
 </p>
 
 ## Results
@@ -87,17 +87,17 @@ The hardware used for this task are:
 
 The vehicle is stopping and maintaining the distance of 30cm from the front obstacle as shown in figure below:
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/acc_working.png"  width="400"  height="600"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/acc_working.png"  width="400"  height="600"  />
 </p>
 
 **Lane Keeping:**
 
 The vehicle is keeping itself inside the lane defined and can be seen in the following figure:
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/lane_keeping_working.png"  width="400"  height="600"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/lane_keeping_working.png"  width="400"  height="600"  />
 </p>
 
 **ADAS functions Working Video:**
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/acc_lane_keeping.gif" />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruise%20Control%20and%20Autonomous%20Lane%20Keeping/images/acc_lane_keeping.gif" />
 </p>
