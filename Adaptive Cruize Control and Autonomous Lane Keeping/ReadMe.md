@@ -17,14 +17,12 @@ The second was to maintain a distance of 40cm from the side wall and remain in t
 
 ## Technical Approach
 **For ACC**
-
  - Sampling the time data received from the sensor
  - Implementing Exponential Filter
  - PID Implementation
  - PWM Implementation
 
 **For Lane Keeping**
-
  - Sampling the time data received from the sensor
  - Implementing Exponential Filter
  - PID Implementation
