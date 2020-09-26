@@ -25,7 +25,7 @@ The following figure shows the actual setup:
 <img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/sensor_setup.jpg"  width="500"  height="500"  />
 </p>
 
-## Sotware Implementation
+## Software Implementation
 
  1. Time data from the two ultrasonic sensors were sampled.
  2. Piece wise calibration was performed for both sensors individually and time data was converted to real distance.
