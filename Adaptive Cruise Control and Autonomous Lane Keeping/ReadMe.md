@@ -60,7 +60,7 @@ The hardware used for this task are:
 </p>
 
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/pid_acc.png"  width="800"  height="300"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/pid_acc.png"  width="800"  height="200"  />
 </p>
 
  - (Filtered_distance)[n] = w × (sensor_distance)[n] + (1 – w) × (Filtered_distance)[n–1] where, w is the weight factor from 0 to 1
@@ -79,7 +79,7 @@ The hardware used for this task are:
  - PD controller implemented for steering control.
 
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/pid_lane_keeping.png"  width="800"  height="300"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Adaptive%20Cruize%20Control%20and%20Autonomous%20Lane%20Keeping/images/pid_lane_keeping.png"  width="800"  height="200"  />
 </p>
 
 ## Results
