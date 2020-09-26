@@ -17,14 +17,14 @@ For this activity, an initial sub-task of implementing sensor signal processing 
 implementation details can be found [here](https://github.com/shorane/ADAS_Algorithms_on_F1_10th/tree/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration)
 
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/kalman_filter_sensor_fusion_logic.png"  width="750"  height="200"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Sensor%20Fusion%20and%20Calibration/images/kalman_filter_sensor_fusion_logic.png" height="250"  />
 </p>
 
 **1b. Ultrasonic sensor-based Localization system**
 implementation details can be found [here](https://github.com/shorane/ADAS_Algorithms_on_F1_10th/tree/master/Sensor%20Signal%20Processing/Ultrasound%20based%20Localization%20System)
 
 <p align = "center">
-<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Ultrasound%20based%20Localization%20System/images/kalman_filter_logic.png"  width="700"  height="300"  />
+<img src="https://github.com/prateeks97/ADAS_Algorrithms_on_F1_10th/blob/master/Sensor%20Signal%20Processing/Ultrasound%20based%20Localization%20System/images/kalman_filter_logic.png"  height="250"  />
 </p>
 
 ### 2. ACC and Lane-keeping 
